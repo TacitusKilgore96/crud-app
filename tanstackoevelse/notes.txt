@@ -1,0 +1,15 @@
+1. installér dependencies: vite/react/js, tailwind, react-router-dom,
+
+2. lav/connect pages, components til CRUD appen
+
+3. npm tanstack query og devtools og wrap App i QueryClientProvider
+(nu begynder vi at bruge tanstack)
+
+4. installér json server og kør den 
+npx json-server src/db.json --port 3001.
+Derefter lav den første linje tanstack kode i PostLists
+
+5. tilføj tanstack devtools til main
+<ReactQueryDevtools initialIsOpen={false} />
+
+6. AddPost: tilføj flere posts

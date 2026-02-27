@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../public/sauce.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  background: linear-gradient(to right, #c084fc, #ec4899, #ef4444);
+  color: white;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: filter 0.15s ease-in-out;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+button:hover {
+  filter: brightness(0.85);
+}
+
+button:active {
+  filter: brightness(0.5);
+}
